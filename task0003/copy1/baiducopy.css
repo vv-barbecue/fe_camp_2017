@@ -1,0 +1,96 @@
+header nav{
+	text-align: right;
+	font-size: 0.9em;
+	color: rgb(0,0,0);
+	text-decoration-line: underline;
+}
+.headbox>a{
+	padding: 0 5px;
+}
+.headbox a{
+	color: rgb(0,0,0);
+}
+figure{
+	position: fixed;
+	top: 18%;
+	left: 32%;
+}
+img{
+	padding: 0 160px;
+}
+form{
+	display: inline-block;
+    position: fixed;
+    top: 35%;
+    left: 32%; 
+	margin: 0;
+	padding: 0;
+	border-color: rgb(0,0,240);
+	height: 36px;
+}
+form p{
+	width: 650px;
+	display: inline-block;
+}
+input{
+	width: 500px;
+	height: 36px;
+	background-color: rgb(255,255,255);
+	border-color: #3399ff;
+	border-width: thin;
+	font-size: 20px;
+}
+button{
+	height: 40px;
+	width: 100px;
+	background-color: #3399ff;
+	border: none;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	border-radius: 5px;
+}
+p{
+	height: 36px;
+	width: 400px;
+	margin: 0;
+	text-align: center;
+}
+nav>ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+.drop{
+	height: 14px;
+	overflow: hidden;
+	width: 60px;
+	text-align: center;
+}
+.drop li{
+    position: relative;
+    left: -80px;
+    line-height: 2em;
+    width: 150px;
+}
+li a{
+	text-decoration: none;
+}
+.box>li:hover{
+	overflow: visible;
+}
+section{
+	position: fixed;
+	bottom: 40px;
+    left: 35%;
+    min-width: 400px;
+    overflow: hidden;
+}
+section a{
+	font-size: 0.8em;
+	margin: 0 10px;
+	color: rgb(150,150,150);
+}
