@@ -1,0 +1,45 @@
+body{
+	background-image: url('xx-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#xx{
+	background-image: url('btn-blue.png');
+}
+#bw{
+	background-image: url('btn-gray.png');
+}
+
+button{
+	font-size: 1em;
+	text-align: left;
+	text-indent: 10px;
+	border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 3em;
+	width: 15em;
+}
+img{
+	height: 60vh;
+	width: 50vh;
+	position: fixed;
+	margin-top: -30vh;
+	top: 50%;
+	left: 10%;
+}
+section{
+	display: inline-block;
+	min-width: 600px;
+	overflow: hidden;
+}
+div{
+	display: flex;
+	flex-direction: column;
+	height: 35vh;
+	justify-content: space-around;
+	position: fixed;
+	right: 20%;
+	margin-top: -17.5vh;
+	top: 50%;
+}
