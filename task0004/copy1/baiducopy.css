@@ -1,0 +1,118 @@
+header nav{
+	text-align: right;
+	font-size: 0.9em;
+	color: rgb(0,0,0);
+	text-decoration-line: underline;
+	min-width: 720px;
+}
+.headbox>a{
+	padding: 0 5px;
+	font-weight: bold;
+}
+#special{
+     font-weight: normal;
+}
+.headbox a{
+	color: black;
+}
+article{
+	display: flex;
+	flex-direction: column-reverse;
+	position: fixed;
+	top: 25%;
+	text-align: center;
+}
+figure{
+	position: fixed;
+	left: 50%;
+	margin-left: -270px;
+}
+img{
+	padding: 0 160px;
+}
+form{
+    position: fixed;
+    left: 50%; 
+	margin-left: -325px;
+	height: 32px;
+	margin-top: 6em;
+}
+form p{
+    display: flex;
+	width: 650px;
+	}
+input{
+	width: 500px;
+	height: 32px;
+	background-color: rgb(255,255,255);
+	border-color: #b8b8b8;
+	border-width: thin;
+	font-size: 20px;
+}
+button{
+	width: 100px;
+	background-color: #3399ff;
+	border: none;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	vertical-align: middle;
+	color: white;
+}
+p{
+	height: 36px;
+	width: 400px;
+	margin: 0;
+	text-align: center;
+}
+nav>ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+.drop{
+	height: 1.5em;
+	overflow: hidden;
+	width: 60px;
+	text-align: center;
+}
+.drop li{
+    position: relative;
+    left: -80px;
+    line-height: 2em;
+    width: 150px;
+}
+li a{
+	text-decoration: none;
+}
+.box>li:hover{
+	overflow: visible;
+}
+.box:first-child>li :hover{
+	background-color: #ccc;
+}
+.drop1 ul{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-around;
+}
+.drop1>a{
+	background-color: #1299ef;
+}
+section{
+	position: fixed;
+	bottom: 40px;
+	margin-left: -200px;
+    left: 50%;
+    min-width: 400px;
+    overflow: hidden;
+}
+section a{
+	font-size: 0.8em;
+	margin: 0 10px;
+	color: rgb(150,150,150);
+}
